@@ -1,3 +1,7 @@
+body {
+    background-color:black;
+}
+
 .tabuleiro {
     display: grid;
     grid-template-columns: repeat(8, 60px);
@@ -7,9 +11,9 @@
 }
 
 .casa-preta {
-    background-color: /*rgb(255, 96, 96)*/ gray;
+    background-color: rgb(79, 174, 80);
 }
 
 .casa-branca {
-    background-color: white;
+    background-color: rgb(220, 242, 224);
 }
